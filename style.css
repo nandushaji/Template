@@ -134,7 +134,9 @@ a{
     margin:10px;
 }
 .box:hover{
-    transform: -webkit-rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
     transform: rotate(7deg);
 
 }
